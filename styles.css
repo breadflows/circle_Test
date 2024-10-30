@@ -8,11 +8,13 @@ body {
   background-color: white;
 }
 
-/* Circle styling */
+/* Circle styling with background image */
 .circle {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-image: url('files/images/icons/xcom2.png');
+  background-size: cover; /* Ensure the image fills the circle */
+  background-position: center; /* Center the image */
   border-radius: 50%;
   opacity: 0.5; /* Default opacity */
   transition: opacity 0.3s ease; /* Smooth transition */
