@@ -1,0 +1,24 @@
+/* Basic reset for body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+}
+
+/* Circle styling */
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  opacity: 0.5; /* Default opacity */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.circle:hover {
+  opacity: 1; /* Full opacity on hover */
+}
